@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+ background:#F7EBDC;
+}
+
+.header{
+  height:180px;
+}
+
+.avocado_nav svg{
+ width:100px;
+ margin-top:5px;
+ margin-left:20px;
+}
+
+.nav_Heading{
+  position:relative;
+  top:-100px;
+  left:190px;
+  font-family:sans-serif;
+  font-size:1.5em;
+}
+.nav_Heading:before{
+  /*Pfeil VOR (-->before) Heading*/
+  content:'';
+  width:50px;
+  height:50px;
+  top:0;
+  left:-50px;
+  bottom:0;
+  margin:auto;
+  position:absolute;
+  background-image:url(https://photos-3.dropbox.com/t/2/AACbBF5hcjziZR4sB576keqLONEammoIOhbwyqKyDusHsA/12/431992916/png/32x32/1/_/1/2/Avocado_Pfeil01.png/CNTg_s0BIAEgAiADIAQgBSAGIAcoAg/VKx6u-IjBgD1sB6KcUA10XdoX2KCvUQXxF8iG_iMcb0?size=1280x960&size_mode=2);
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:100% auto; 
+  backgrund-color:transparent !important;
+}
+
+img {
+display:block;
+}
+
+/*BilderBox*/
+.bilder{
+  width:235px;
+  float:left;
+  margin:0 5% 0 5%;
+}
+
+.bild1{
+  max-width:80%;
+  position:relative;
+}
+
+.bild2{
+  max-width:80%;
+  position:relative;
+}
+
+
+/*Text*/
+p{
+  margin-top:50px;
+}
+
+.fliesstext{
+ font-family:sans-serif;
+ font-size:15px;
+ line-height:1.5em;
+ float:left;
+ width:55%;
+}
